@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run AssignmentAutoGradingApplication (Demo)",
+      "request": "launch",
+      "mainClass": "com.graduation.autograding.AssignmentAutoGradingApplication",
+      "projectName": "assignment-auto-grading",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "args": "--spring.profiles.active=demo"
+    }
+  ]
+}
